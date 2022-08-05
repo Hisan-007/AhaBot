@@ -1,0 +1,446 @@
+{
+  "intents": [
+    {
+      "tag": "0",
+      "patterns": [
+        "I'm Hi.",
+        "I am Hi.",
+        "Hi, I'm new to this.",
+        "Hi, I'm here.",
+        "Hi.",
+        "I'm Hi",
+        "Hi, I'm interested in this.",
+        "Hi, I'm interested.",
+        "Hi, I am interested in this.",
+        "Hi, I'm interested in learning more.",
+        "Hello",
+        "Hey",
+        "Good day",
+        "Hay"
+      ],
+      "responses": [
+        "Hello!"
+      ]
+    },
+    {
+      "tag": "1",
+      "patterns": [
+        "What is your name?",
+        "What is your full name?",
+        "What's your name?",
+        "Do you have a name?",
+        "What is your last name?",
+        "What is your first name?",
+        "What is your name now?",
+        "Which is your name?",
+        "What is it called?",
+        "Do you have a name?"
+      ],
+      "responses": [
+        "My name is Jessica, and i'm here to assist you. how may i help you ?"
+      ]
+    },
+    {
+      "tag": "2",
+      "patterns": [
+        "Where do you live?",
+        "Where are you located?",
+        "What location do you live in?",
+        "Where are you living?",
+        "Where do you live now?",
+        "Where do you reside?",
+        "Where do you live right now?",
+        "What place do you live?",
+        "Where are you located?",
+        "What place do you live in?"
+      ],
+      "responses": [
+        "I live in your heart ;)"
+      ]
+    },
+    {
+      "tag": "3",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "What are you doing?",
+        "Are you doing well?",
+        "Do you know how you are doing?",
+        "Do you know how you're doing?",
+        "What are you doing?",
+        "How are your days?",
+        "Do you know how you are?",
+        "How are you doing?"
+      ],
+      "responses": [
+        "I'm a bot. I'm always doing well."
+      ]
+    },
+    {
+      "tag": "4",
+      "patterns": [
+        "Can you help me?",
+        "Are you able to help me?",
+        "Can you assist me?",
+        "Can you help me with this?",
+        "Can you help?",
+        "Can you lend a hand?",
+        "Can you help me with that?",
+        "Do you have any help for me?",
+        "Can you help me?",
+        "Can you help me with something?",
+        "I need help",
+        "I need your help",
+        "I want your help",
+        "I would like to have some help"
+      ],
+      "responses": [
+        "What's stopping me to help such a charming person. Lemme know how may i help you"
+      ]
+    },
+    {
+      "tag": "5",
+      "patterns": [
+        "I need to create a new account.",
+        "I need to open a new account.",
+        "I need to set up a new account.",
+        "I have to create a new account.",
+        "There is a need to create a new account.",
+        "I need to create an account.",
+        "I need to create a new account",
+        "I need to open an account.",
+        "I need to set up an account.",
+        "I need a new account.",
+        "How do i create a new account",
+        "How can i create a new account",
+        "Can you help me create an account",
+        "Can you show me how to create an account",
+        "Create account"
+      ],
+      "responses": [
+        "You can just easily create a new account from our web site. Go to Sign UP --> Create Account --> and supply your details. That's all you need to do :)"
+      ]
+    },
+    {
+      "tag": "6",
+      "patterns": [
+        "I would like to make a complaint.",
+        "I want to make a complaint.",
+        "I would like to submit a complaint.",
+        "I would like to file a complaint.",
+        "I'd like to make a complaint.",
+        "I would like to lodge a complaint.",
+        "I would like to complain.",
+        "I want to file a complaint.",
+        "I want to complain.",
+        "I want to make a complaint"
+      ],
+      "responses": [
+        "Oh Shoot, That's a bummer that You have come across an issue. Please go to Complaints Section --> Open Ticket --> and write your issue. I promise i'll get things sorted for you ASAP"
+      ]
+    },
+    {
+      "tag": "7",
+      "patterns": [
+        "How do I get rid of my premium membership?",
+        "How do I get rid of my membership?",
+        "How do I stop my membership?",
+        "I don't know how to cancel my premium membership.",
+        "How do I stop paying my membership?",
+        "I don't know how to cancel my membership.",
+        "How do I cancel my membership?",
+        "How do I stop using my membership?",
+        "How do I uninstall my membership?",
+        "How do I remove my membership?"
+      ],
+      "responses": [
+        "Follow these steps: My Account-->Options-->Cancel my membership. That would be all."
+      ]
+    },
+    {
+      "tag": "8",
+      "patterns": [
+        "What is your pricing plan?",
+        "What is your price plan?",
+        "Do you have a pricing plan?",
+        "What is your plan?",
+        "What is your plan for pricing?",
+        "What is the plan for your pricing?",
+        "What's your pricing plan?",
+        "What is the plan for your prices?",
+        "What is your plan for selling things?",
+        "What is the pricing plan for you?",
+        "show me your pricing plan",
+        "I want to see the pricing plan", 
+        "Can you show me the pricing plan",
+        "Can i have the pricing plan",
+        "What's your pricing plan"
+      ],
+      "responses": [
+        "To see the price for different plans: Go to the pricing section from navbar, all the packages will be available there."
+      ]
+    },
+    {
+      "tag": "9",
+      "patterns": [
+        "Do you offer a free trial account?",
+        "Do you have a free trial account?",
+        "Do you offer a trial account?",
+        "Do you offer a free trial?",
+        "Do you provide a free trial account?",
+        "Do you give a free trial account?",
+        "Do you give away a free trial account?",
+        "Is there a free trial account?",
+        "Is there a free trial account you offer?",
+        "Do you allow a free trial account?"
+      ],
+      "responses": [
+        "You can get your free trail on registering your account. You won't be charged until the trail period ends."
+      ]
+    },
+    {
+      "tag": "10",
+      "patterns": [
+        "How do I stop my trial?",
+        "How do I stop my free trial?",
+        "How do I cancel my trial?",
+        "How can I stop my trial?",
+        "How can I stop my free trial?",
+        "How do I get rid of my free trial?",
+        "How do I get rid of my trial?",
+        "How do I cancel my free trial?",
+        "How can I cancel my trial?",
+        "How do I uninstall my trial?"
+      ],
+      "responses": [
+        "To cancel your trail follow these steps: My Account-->Options-->Cancel my trail. You won't be able to get trail again once you cancel it."
+      ]
+    },
+    {
+      "tag": "11",
+      "patterns": [
+        "I didn't remember my password.",
+        "I forgot my password.",
+        "I did not remember my password.",
+        "I don't remember my password.",
+        "I don't have a password.",
+        "I forgot to enter my password.",
+        "I lost my password.",
+        "I had forgotten my password.",
+        "I didn't remember my password",
+        "I forgot my password",
+        "forgot password",
+        "I have lost my password",
+        "How do i recover lost password"
+      ],
+      "responses": [
+        "If you forgot your password you can reset it from login page. Select 'Forgot my password' and add your email. Password reset link will be forwaded to your email."
+      ]
+    },
+    {
+      "tag": "12",
+      "patterns": [
+        "I would like to reset my account.",
+        "I want to change my password.",
+        "I'd like to reset my account.",
+        "I want to reset my account.",
+        "I would like to change my account.",
+        "I would love to reset my account.",
+        "I need to reset my account.",
+        "I wish to reset my account.",
+        "My account needs to be reset.",
+        "I would like to reset my account",
+        "How do i reset my account",
+        "How to reset my account",
+        "How can i reset my account",
+        "How do i reset my account",
+	"reset account",
+	"account reset"
+      ],
+      "responses": [
+        "To reset you account: Go to My Account-->Settings-->reset my account. Once you reset your account all your settings will be set to default."
+      ]
+    },
+    {
+      "tag": "13",
+      "patterns": [
+        "I would like to remove my account.",
+        "I want to get rid of my account.",
+        "I want to stop using my account.",
+        "I want to uninstall my account.",
+        "I would like to take my account away.",
+        "I want my account to be deleted.",
+        "I want to remove my account.",
+        "I want to take my account away.",
+        "I would like to remove my account from here.",
+        "I would like to take my account out.",
+        "How do i remove my account",
+        "How can i remove my account",
+        "How to delete my account",
+        "How to remove my account",
+	"remove account",
+	"account remove",
+	"Can i remove my account"
+      ],
+      "responses": [
+        "To delete you account: Go to My Account-->Settings-->delete my account. After this you can restore your account within 30 days otherwise you account will be deleted permanently after 30 days."
+      ]
+    },
+    {
+      "tag": "14",
+      "patterns": [
+        "I would like to speak with an agent.",
+        "I would like to speak to an agent.",
+        "I would like to talk to an agent.",
+        "I want to speak with an agent.",
+        "I want to speak to an agent.",
+        "I'd like to talk to an agent.",
+        "I want to talk to an agent.",
+        "I'd like to speak to an agent.",
+        "I want to talk to someone.",
+        "I want to talk to an agent",
+        "I want to talk to customer support",
+        "Can you connect with customer support",
+        "I would like to talk to customer support",
+        "I want to speak to customer support",
+        "I'd like to speak to customer support"
+      ],
+      "responses": [
+        "Let me connect you to our professional Mr. Botim, He surely knows his stuff!"
+      ]
+    },
+    {
+      "tag": "15",
+      "patterns": [
+        "I was over charged on the bill.",
+        "I had been over charged.",
+        "I was over charged on the latest bill.",
+        "I was overcharged on the bill.",
+        "I was over charged on the most recent bill.",
+        "I had been over charged on the bill.",
+        "I was over charged on the last bill.",
+        "I had been charged too much.",
+        "I had been overcharged.",
+        "The bill I was over charged on was the latest."
+      ],
+      "responses": [
+        "To get details of the charged bill please follow these steps: Go to Settings-->Finances-->History. If you are overcharged you can write a complaint in complaint section in navbar."
+      ]
+    },
+    {
+      "tag": "16",
+      "patterns": [
+        "Someone needs a copy of their credentials.",
+        "There is a copy of my credentials that I need.",
+        "There is a copy of my credentials I need.",
+        "I need to have a copy of my credentials.",
+        "A copy of my credentials is needed.",
+        "I need a copy of my credentials.",
+        "I require a copy of my credentials.",
+        "I want a copy of my credentials.",
+        "I need to get a copy of my credentials.",
+        "A copy of my credentials is required."
+      ],
+      "responses": [
+        "To create copy of your credentails: Go to My Account-->Setting-->Security-->Credentials-->create copy"
+      ]
+    },
+    {
+      "tag": "17",
+      "patterns": [
+        "I can't download the backups.",
+        "I can't access the backup.",
+        "I am unable to download the backup.",
+        "I can't find a way to download the backup.",
+        "I can't get the backup to download.",
+        "I can't get the backup.",
+        "I cannot download the backup.",
+        "I cannot download the backups.",
+        "I can't download the backup.",
+        "I can't access the backups."
+      ],
+      "responses": [
+        "To create backup: Go to Settings-->Data and storage-->create backup. Now You can download backup from Settings-->Data and storage-->download backup"
+      ]
+    },
+    {
+      "tag": "18",
+      "patterns": [
+        "How can I change the profile picture?",
+        "How do I change the profile picture?",
+        "How can I change my profile picture?",
+        "How to change the picture on the profile?",
+        "How can I change the picture on my profile?",
+        "How to change the profile picture?",
+        "How do you change the profile picture?",
+        "How to change the picture on your profile?",
+        "How to change the picture on your profile.",
+        "How to change the picture on the profile.",
+        "I want to change the profile picture",
+        "I would like to change the profile picture",
+        "Can i change the profile picture",
+        "How to change the profile picture",
+        "Change profile picture"
+      ],
+      "responses": [
+        "To change the profile picture: Go to My Account-->Customization-->Basic info-->Change profile picture. Now you can select new profile picture and change it."
+      ]
+    },
+    {
+      "tag": "19",
+      "patterns": [
+        "The website is loading slowly.",
+        "The website is slow.",
+        "The website is not loading fast.",
+        "Website is loading slowly.",
+        "The website is not loading very fast.",
+        "The website is not loading quickly.",
+        "The website is not loading very quickly.",
+        "The website is loading very slowly.",
+        "The website is very slow.",
+        "Website is loading slowly",
+        "Website loading slow"
+      ],
+      "responses": [
+        "Following can be solutions: -Try switching internet connection -Clearing your catche -Changing broswer"
+      ]
+    },
+    {
+      "tag": "20",
+      "patterns": [
+        "How do I use the Amazon web services?",
+        "How do I use Amazon web services?",
+        "How do I use Amazon Web Services?",
+        "How do I use the Amazon Web Services?",
+        "How can I use the Amazon web services?",
+        "What do I do with the Amazon web services?",
+        "How do I use the services of Amazon Web Services?",
+        "How do I implement the Amazon web services?",
+        "Is it possible to implement the Amazon web services.",
+        "Is it possible to implement the Amazon web services?",
+        "implement amazon web services"
+      ],
+      "responses": [
+        "You can implement the amazon web services AWS by creating account, getting suitable package and deploying you application on it."
+      ]
+    },
+    {
+      "tag": "21",
+      "patterns": [
+        "I want to make the website better.",
+        "I want to improve the website's ranking in the search engines.",
+        "I want to improve the website's search engine ranking.",
+        "I want to improve the website's performance.",
+        "I want to improve the website's ranking.",
+        "I want to improve the website's ranking on the internet.",
+        "I want to improve the website's visibility.",
+        "I want to improve the website's ranking in search engines.",
+        "I would like to improve the website's search engine ranking.",
+        "I want to make the website more attractive."
+      ],
+      "responses": [
+        "Following tips will help you improving website's SEO: -Publish Relevant, Authoritative Content -Update Your Content Regularly -Metadata -Have a link-worthy site -Use alt tags "
+      ]
+    }
+  ]
+}

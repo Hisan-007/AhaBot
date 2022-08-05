@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="icon" type="image/x-icon" href="images/bot.png">
+    <title>Ahabot</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">Chatbot</div>
+        <div id="chatBoxAll" class="box"> 
+            <div id='botMessageId' class="item">
+                <img src='images/bot.png' alt='Avatar' style='width:50px'>
+                <div  class="msg">
+                    <p>Hi! How may I help you?</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="typing-area">
+            <div class="input-field">
+                <input id="addQuestionId" type="text" placeholder="Type your message" required>
+                <button onclick="apiCall()">Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var input = document.getElementById("addQuestionId");
+    input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        apiCall();
+    }
+    });
+    function apiCall() {
+        document.getElementById('chatBoxAll').innerHTML += "<br clear='both'><div id='userMessageId' class='item right'><div class='msg'><p>"+document.getElementById('addQuestionId').value+"</p></div><img src='https://joeschmoe.io/api/v1/random' alt='Avatar' style='width:50px;height:50px;padding-bottom:7px'></div>";
+        var askedQuestion = document.getElementById('addQuestionId').value;
+        document.getElementById('addQuestionId').value='';
+        axios.post('http://127.0.0.1:8000/api/ask', {"question":askedQuestion})
+        .then(response => {
+            console.log(response);
+            document.getElementById('chatBoxAll').innerHTML += "<br clear='both'><div id='botMessageId' class='item'><img src='images/bot.png' alt='Avatar' style='width:50px;height:50px'><div  class='msg'><p>"+response.data.data.answer+"</p></div></div>";
+            
+            var divElement = document.getElementById("chatBoxAll");
+            divElement.scroll({
+                top: divElement.scrollHeight,
+                behavior: 'smooth' 
+            });
+        });
+    }
+</script>
+</html>
